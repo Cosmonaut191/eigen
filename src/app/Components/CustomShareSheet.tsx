@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { ChevronIcon, Flex, Text, Touchable } from "palette"
 import React from "react"
 import { FancyModal } from "./FancyModal/FancyModal"

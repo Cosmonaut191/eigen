@@ -1,5 +1,5 @@
 import { ArtsyKeyboardAvoidingView } from "app/Components/ArtsyKeyboardAvoidingView"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { useFormikContext } from "formik"
 import { Box, Button, Input, PhoneInput, Spacer, Text } from "palette"
 import React from "react"

@@ -1,5 +1,5 @@
 import NavigatorIOS from "app/utils/__legacy_do_not_use__navigator-ios-shim"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import React from "react"
 import { View } from "react-native"
 

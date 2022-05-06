@@ -1,7 +1,7 @@
 import { Route, useIsFocused, useNavigationState } from "@react-navigation/native"
 import { AppModule, modules } from "app/AppRegistry"
 import { ArtsyKeyboardAvoidingViewContext } from "app/Components/ArtsyKeyboardAvoidingView"
-import { ProvideScreenDimensions, useScreenDimensions } from "app/utils/useScreenDimensions"
+import { ProvideScreenDimensions, useScreenDimensions } from "shared/hooks"
 import React, { useState } from "react"
 import { View } from "react-native"
 import { createNativeStackNavigator } from "react-native-screens/native-stack"

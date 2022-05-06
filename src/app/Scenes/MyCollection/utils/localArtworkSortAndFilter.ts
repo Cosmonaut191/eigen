@@ -7,7 +7,7 @@ import {
 } from "app/Components/ArtworkFilter/ArtworkFilterHelpers"
 import { ArtworksFiltersStore } from "app/Components/ArtworkFilter/ArtworkFilterStore"
 import { FilterDisplayConfig } from "app/Components/ArtworkFilter/types"
-import { normalizeText } from "app/utils/normalizeText"
+import { normalizeText } from "shared/utils"
 import { compact, filter, orderBy, uniqBy } from "lodash"
 import { DateTime } from "luxon"
 import { useEffect } from "react"

@@ -353,7 +353,7 @@ jest.mock("react-native-keychain", () => ({
 // Native modules
 import { ArtsyNativeModule } from "app/NativeModules/ArtsyNativeModule"
 import { LegacyNativeModules } from "app/NativeModules/LegacyNativeModules"
-import { ScreenDimensionsWithSafeAreas } from "app/utils/useScreenDimensions"
+import { ScreenDimensionsWithSafeAreas } from "shared/hooks"
 import { NativeModules } from "react-native"
 
 type OurNativeModules = typeof LegacyNativeModules & { ArtsyNativeModule: typeof ArtsyNativeModule }

@@ -6,7 +6,7 @@ import { useToast } from "app/Components/Toast/toastHook"
 import { unsafe__getEnvironment, useDevToggle } from "app/store/GlobalStore"
 import { Schema } from "app/utils/track"
 import { useCanOpenURL } from "app/utils/useCanOpenURL"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import {
   Box,
   Flex,

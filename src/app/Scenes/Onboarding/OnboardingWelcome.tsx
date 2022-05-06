@@ -1,7 +1,7 @@
 import { StackScreenProps } from "@react-navigation/stack"
 import { useAnimatedValue } from "app/Components/StickyTabPage/reanimatedHelpers"
 import { ArtsyNativeModule } from "app/NativeModules/ArtsyNativeModule"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { ArtsyLogoWhiteIcon, Button, Flex, Screen, Spacer, Text, useTheme } from "palette"
 import React, { useEffect } from "react"
 import { Dimensions, Image, Platform } from "react-native"

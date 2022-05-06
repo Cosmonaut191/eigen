@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { compact } from "lodash"
 import React, { RefObject, useImperativeHandle, useRef } from "react"
 import { Animated, TouchableWithoutFeedback, View } from "react-native"

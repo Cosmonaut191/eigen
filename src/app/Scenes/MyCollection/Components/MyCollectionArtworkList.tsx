@@ -3,7 +3,7 @@ import { Props as InfiniteScrollArtworksGridProps } from "app/Components/Artwork
 import { PAGE_SIZE } from "app/Components/constants"
 import { PrefetchFlatList } from "app/Components/PrefetchFlatList"
 import { extractNodes } from "app/utils/extractNodes"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Flex, Spinner } from "palette"
 import React, { useState } from "react"
 import { LayoutAnimation, LayoutChangeEvent, Platform, ScrollView, View } from "react-native"

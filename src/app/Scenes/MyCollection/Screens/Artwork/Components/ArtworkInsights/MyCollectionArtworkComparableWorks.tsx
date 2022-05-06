@@ -4,7 +4,7 @@ import { AuctionResultListItemFragmentContainer } from "app/Components/Lists/Auc
 import { SectionTitle } from "app/Components/SectionTitle"
 import { navigate } from "app/navigation/navigate"
 import { extractNodes } from "app/utils/extractNodes"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Flex, Separator } from "palette"
 import React from "react"
 import { FlatList } from "react-native"

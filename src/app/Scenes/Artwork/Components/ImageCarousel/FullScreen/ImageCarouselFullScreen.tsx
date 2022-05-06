@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import React, { useCallback, useContext, useEffect, useMemo, useState } from "react"
 import {
   Animated,

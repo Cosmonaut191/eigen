@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { useCallback, useContext, useEffect, useMemo, useRef } from "react"
 import React from "react"
 import { Animated, NativeScrollEvent, NativeSyntheticEvent, ScrollView, View } from "react-native"

@@ -12,7 +12,7 @@ import { GlobalStore, GlobalStoreProvider, useFeatureFlag } from "./store/Global
 import { combineProviders } from "./utils/combineProviders"
 import { UnleashProvider } from "./utils/experiments/UnleashProvider"
 import { track } from "./utils/track"
-import { ProvideScreenDimensions } from "./utils/useScreenDimensions"
+import { ProvideScreenDimensions } from "shared/hooks"
 
 export const AppProviders = ({ children }: { children?: React.ReactNode }) =>
   combineProviders(

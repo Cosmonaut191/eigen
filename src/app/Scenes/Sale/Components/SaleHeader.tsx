@@ -4,7 +4,7 @@ import { CustomShareSheet, CustomShareSheetItem } from "app/Components/CustomSha
 import { getShareURL } from "app/Components/ShareSheet/helpers"
 import { useToast } from "app/Components/Toast/toastHook"
 import { getCascadingEndTimeFeatureSaleDetails, saleTime } from "app/utils/saleTime"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import moment from "moment"
 import { Flex, LinkIcon, MoreIcon, ShareIcon, Text, Touchable } from "palette"
 import React, { useState } from "react"

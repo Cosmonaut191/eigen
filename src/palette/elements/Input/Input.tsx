@@ -1,5 +1,5 @@
 import { themeGet } from "@styled-system/theme-get"
-import { MeasuredView } from "app/utils/MeasuredView"
+import { MeasuredView } from "shared/utils"
 import { EventEmitter } from "events"
 import _ from "lodash"
 import { Color, EyeOpenedIcon, Flex, Spinner, Text, useTheme, XCircleIcon } from "palette"

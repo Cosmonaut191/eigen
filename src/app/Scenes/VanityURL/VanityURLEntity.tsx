@@ -3,7 +3,7 @@ import { VanityURLEntityQuery } from "__generated__/VanityURLEntityQuery.graphql
 import { HeaderTabsGridPlaceholder } from "app/Components/HeaderTabGridPlaceholder"
 import { defaultEnvironment } from "app/relay/createEnvironment"
 import { renderWithPlaceholder } from "app/utils/renderWithPlaceholder"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Flex, Spinner } from "palette"
 import React from "react"
 import { View } from "react-native"

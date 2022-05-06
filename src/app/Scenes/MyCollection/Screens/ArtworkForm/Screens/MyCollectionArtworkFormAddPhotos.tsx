@@ -6,7 +6,7 @@ import { Image as ImageProps } from "app/Scenes/MyCollection/State/MyCollectionA
 import { GlobalStore } from "app/store/GlobalStore"
 import { isPad } from "app/utils/hardware"
 import { showPhotoActionSheet } from "app/utils/requestPhotos"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { chunk } from "lodash"
 import { AddIcon, BorderBox, Box, Flex, useColor, XCircleIcon } from "palette"
 import React from "react"

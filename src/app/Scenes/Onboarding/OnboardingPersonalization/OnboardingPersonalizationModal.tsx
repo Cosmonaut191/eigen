@@ -4,7 +4,7 @@ import { OnboardingPersonalizationModal_artists } from "__generated__/Onboarding
 import { OnboardingPersonalizationModalQuery } from "__generated__/OnboardingPersonalizationModalQuery.graphql"
 import { SearchInput } from "app/Components/SearchInput"
 import { BackButton } from "app/navigation/BackButton"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { isEqual } from "lodash"
 import { Flex, Spinner, Text, useSpace } from "palette"
 import React, { useEffect, useMemo, useRef, useState } from "react"

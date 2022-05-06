@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Flex, Spacer, useColor } from "palette"
 import React, { useContext } from "react"
 import { Animated, View } from "react-native"

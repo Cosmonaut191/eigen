@@ -1,6 +1,6 @@
 import { themeGet } from "@styled-system/theme-get"
 import { navigate } from "app/navigation/navigate"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Flex, Text } from "palette"
 import React, { useEffect } from "react"
 import { Animated, Modal, TouchableOpacity } from "react-native"

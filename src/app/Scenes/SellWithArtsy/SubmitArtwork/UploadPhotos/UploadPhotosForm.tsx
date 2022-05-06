@@ -1,7 +1,10 @@
 import { useActionSheet } from "@expo/react-native-action-sheet"
 import { captureMessage } from "@sentry/react-native"
 import { storeLocalPhotos } from "app/Scenes/MyCollection/Screens/ArtworkForm/MyCollectionImageUtil"
-import { Photo, PhotosFormModel } from "app/Scenes/SellWithArtsy/SubmitArtwork/UploadPhotos/validation"
+import {
+  Photo,
+  PhotosFormModel,
+} from "app/Scenes/SellWithArtsy/SubmitArtwork/UploadPhotos/validation"
 import { GlobalStore } from "app/store/GlobalStore"
 import { showPhotoActionSheet } from "app/utils/requestPhotos"
 import { useFormikContext } from "formik"

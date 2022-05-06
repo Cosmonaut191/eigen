@@ -10,7 +10,7 @@ import {
   useEnvironment,
 } from "app/store/GlobalStore"
 import { Schema } from "app/utils/track"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Flex, Text } from "palette"
 import { parse as parseQueryString } from "query-string"
 import React, { useEffect, useRef, useState } from "react"

@@ -30,7 +30,7 @@ import { fitInside, Position, Rect } from "../geometry"
 
 import { captureMessage } from "@sentry/react-native"
 import OpaqueImageView from "app/Components/OpaqueImageView/OpaqueImageView"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import React from "react"
 import { calculateMaxZoomViewScale } from "./DeepZoom/deepZoomGeometry"
 import { DeepZoomOverlay } from "./DeepZoom/DeepZoomOverlay"

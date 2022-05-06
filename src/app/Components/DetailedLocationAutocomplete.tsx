@@ -5,7 +5,7 @@ import {
   LocationWithDetails,
   SimpleLocation,
 } from "app/utils/googleMaps"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Flex, Input, InputProps, Touchable } from "palette"
 import React, { useEffect, useRef, useState } from "react"
 import { Text } from "react-native"

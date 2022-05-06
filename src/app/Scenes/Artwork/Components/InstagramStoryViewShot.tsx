@@ -1,5 +1,5 @@
 import { useDevToggle } from "app/store/GlobalStore"
-import { useOffscreenStyle } from "app/utils/useOffscreenStyle"
+import { useOffscreenStyle } from "shared/hooks"
 import { useSizeToFitScreen } from "app/utils/useSizeToFit"
 import { ArtsyLogoBlackIcon, Flex, Text } from "palette"
 import React, { RefObject } from "react"

@@ -12,7 +12,7 @@ import {
 } from "app/Components/ArtworkFilter/ArtworkFilterStore"
 import { ArtworkFilterBackHeader } from "app/Components/ArtworkFilter/components/ArtworkFilterBackHeader"
 import { TouchableRow } from "app/Components/TouchableRow"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Box, CheckIcon, Flex, Separator, Text, useColor } from "palette"
 import React, { useState } from "react"
 import Haptic from "react-native-haptic-feedback"

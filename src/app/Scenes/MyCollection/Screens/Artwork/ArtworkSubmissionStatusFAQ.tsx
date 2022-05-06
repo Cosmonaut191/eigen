@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { Box, BulletedItem, Flex, Join, Spacer, Text } from "palette"
 import React from "react"
 import { ScrollView } from "react-native"

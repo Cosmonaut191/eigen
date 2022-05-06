@@ -20,7 +20,7 @@ import { FlatList, View } from "react-native"
 import { createPaginationContainer, graphql, RelayPaginationProp } from "react-relay"
 import { useTracking } from "react-tracking"
 import styled from "styled-components/native"
-import { useScreenDimensions } from "../../../utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { DEBOUNCE_DELAY, KeywordFilter } from "../../ArtworkFilter/Filters/KeywordFilter"
 import { AuctionResultListItemFragmentContainer } from "../../Lists/AuctionResultListItem"
 

@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { CloseIcon } from "palette"
 import React, { useContext } from "react"
 import { TouchableOpacity, View } from "react-native"

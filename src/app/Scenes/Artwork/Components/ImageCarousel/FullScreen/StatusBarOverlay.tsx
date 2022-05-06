@@ -1,4 +1,4 @@
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import React from "react"
 import { Animated } from "react-native"
 import { useSpringFade } from "./useSpringFade"

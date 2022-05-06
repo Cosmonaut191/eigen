@@ -21,7 +21,7 @@ import {
 import { QAInfoPanel } from "app/utils/QAInfo"
 import { findRelayRecord, findRelayRecordByDataID } from "app/utils/relayHelpers"
 import { ProvideScreenTracking, Schema } from "app/utils/track"
-import { ScreenDimensionsWithSafeAreas, useScreenDimensions } from "app/utils/useScreenDimensions"
+import { ScreenDimensionsWithSafeAreas, useScreenDimensions } from "shared/hooks"
 import { Box, Flex, Separator, Spacer, useSpace } from "palette"
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react"
 import { ActivityIndicator, FlatList, RefreshControl, View } from "react-native"

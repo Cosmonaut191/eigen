@@ -40,7 +40,7 @@ import Config from "react-native-config"
 import { getBuildNumber, getUniqueId, getVersion } from "react-native-device-info"
 import Keychain from "react-native-keychain"
 import { useUnleashEnvironment } from "./experiments/hooks"
-import { useScreenDimensions } from "./useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 
 const configurableFeatureFlagKeys = Object.entries(features)
   .filter(([_, { showInAdminMenu }]) => showInAdminMenu)

@@ -25,7 +25,7 @@ import {
 import { renderWithPlaceholder } from "app/utils/renderWithPlaceholder"
 import { ProvideScreenTrackingWithCohesionSchema } from "app/utils/track"
 import { screen } from "app/utils/track/helpers"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { EventEmitter } from "events"
 import { times } from "lodash"
 import { Button, Flex, Message, Separator, Spacer, useSpace } from "palette"

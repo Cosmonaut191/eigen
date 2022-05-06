@@ -1,5 +1,5 @@
 import { ExecutionQueue } from "app/utils/ExecutionQueue"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import { compact, flatten } from "lodash"
 import React, { RefObject, useEffect, useRef, useState } from "react"
 import { Animated, View } from "react-native"

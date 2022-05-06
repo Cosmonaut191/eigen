@@ -1,7 +1,7 @@
 import { useAnimatedValue } from "app/Components/StickyTabPage/reanimatedHelpers"
 import { useUpdateShouldHideBackButton } from "app/utils/hideBackButtonOnScroll"
 import { useAutoCollapsingMeasuredView } from "app/utils/useAutoCollapsingMeasuredView"
-import { useScreenDimensions } from "app/utils/useScreenDimensions"
+import { useScreenDimensions } from "shared/hooks"
 import React from "react"
 import { ScrollViewProps, View } from "react-native"
 import Animated from "react-native-reanimated"
