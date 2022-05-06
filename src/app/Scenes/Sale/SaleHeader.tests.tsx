@@ -195,7 +195,7 @@ describe("SaleHeader", () => {
         const { queryByText } = renderWithWrappersTL(<TestRenderer />)
 
         mockEnvironment.mock.resolveMostRecentOperation((operation) =>
-          ///rename to palette-mobile?
+          /// rename to palette-mobile?
           MockPayloadGenerator.generate(operation, {
             Sale: () => ({
               endAt: "2018-05-10T18:00:00",

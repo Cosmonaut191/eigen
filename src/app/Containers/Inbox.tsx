@@ -9,7 +9,7 @@ import { PlaceholderBox, PlaceholderText } from "app/utils/placeholders"
 import { renderWithPlaceholder } from "app/utils/renderWithPlaceholder"
 import { track } from "app/utils/track"
 import { ActionNames, ActionTypes } from "app/utils/track/schema"
-import { Flex, Separator, Spacer, Text, CssTransition } from "palette"
+import { CssTransition, Flex, Separator, Spacer, Text } from "palette"
 import React from "react"
 import { EmitterSubscription, View, ViewProps } from "react-native"
 // @ts-expect-error @types file generates duplicate declaration problems

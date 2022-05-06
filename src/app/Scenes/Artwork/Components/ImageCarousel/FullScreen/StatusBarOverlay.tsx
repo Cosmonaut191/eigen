@@ -1,6 +1,6 @@
-import { useScreenDimensions } from "shared/hooks"
 import React from "react"
 import { Animated } from "react-native"
+import { useScreenDimensions } from "shared/hooks"
 import { useSpringFade } from "./useSpringFade"
 
 // used to mask the image during initial transition in case the user has scrolled down some

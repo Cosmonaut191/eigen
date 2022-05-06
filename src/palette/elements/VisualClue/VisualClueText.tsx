@@ -1,4 +1,4 @@
-import { Flex, Text, useColor, PopIn } from "palette"
+import { Flex, PopIn, Text, useColor } from "palette"
 import React from "react"
 import { StyleProp, ViewStyle } from "react-native"
 

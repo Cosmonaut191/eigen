@@ -1,6 +1,6 @@
-import { useScreenDimensions } from "shared/hooks"
 import React, { useEffect, useMemo } from "react"
 import { Animated, View } from "react-native"
+import { useScreenDimensions } from "shared/hooks"
 import { fitInside, Rect } from "../../geometry"
 import { ImageDescriptor } from "../../ImageCarouselContext"
 import { EventStream } from "../useEventStream"

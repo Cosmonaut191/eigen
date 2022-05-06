@@ -1,21 +1,21 @@
 import { FancyModal } from "app/Components/FancyModal/FancyModal"
+import { SearchInput } from "app/Components/SearchInput"
 import {
   Autocomplete,
   CheckIcon,
   CloseIcon,
   Flex,
   InputTitle,
+  PopIn,
   Sans,
   Separator,
   Spacer,
   Touchable,
   TriangleDown,
   useColor,
-  PopIn,
 } from "palette"
 import React, { useEffect, useMemo, useRef, useState } from "react"
 import { FlatList, TextInput, TouchableOpacity } from "react-native"
-import { SearchInput } from "app/Components/SearchInput"
 import { INPUT_HEIGHT } from "../Input"
 
 export interface SelectOption<ValueType> {

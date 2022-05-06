@@ -1,6 +1,6 @@
 import * as glibphone from "google-libphonenumber"
 import replace from "lodash/replace"
-import { Flex, Input, InputProps, Sans, Spacer, Touchable, useColor, TriangleDown } from "palette"
+import { Flex, Input, InputProps, Sans, Spacer, Touchable, TriangleDown, useColor } from "palette"
 import { useEffect, useRef, useState } from "react"
 import React from "react"
 import { Platform } from "react-native"

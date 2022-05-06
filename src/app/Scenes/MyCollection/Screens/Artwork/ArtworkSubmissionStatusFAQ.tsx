@@ -1,7 +1,7 @@
-import { useScreenDimensions } from "shared/hooks"
 import { Box, BulletedItem, Flex, Join, Spacer, Text } from "palette"
 import React from "react"
 import { ScrollView } from "react-native"
+import { useScreenDimensions } from "shared/hooks"
 
 export const ArtworkSubmissionStatusFAQ: React.FC = () => {
   const { safeAreaInsets } = useScreenDimensions()

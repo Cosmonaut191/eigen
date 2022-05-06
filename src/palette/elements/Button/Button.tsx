@@ -7,7 +7,7 @@ import Haptic, { HapticFeedbackTypes } from "react-native-haptic-feedback"
 import { config } from "react-spring"
 // @ts-ignore
 import { animated, Spring } from "react-spring/renderprops-native"
-import { ViewMeasurements, MeasuredView } from "shared/utils"
+import { MeasuredView, ViewMeasurements } from "shared/utils"
 import styled from "styled-components/native"
 import { Box, BoxProps } from "../Box"
 import { Flex } from "../Flex"
