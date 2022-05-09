@@ -495,6 +495,7 @@ jest.mock("shared/hooks", () => {
       return React.createElement(React.Fragment, null, children)
     },
     useScreenDimensions: () => screenDimensions,
+    useOffscreenStyle: () => ({}),
   }
 })
 
