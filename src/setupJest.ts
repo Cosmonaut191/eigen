@@ -471,7 +471,7 @@ jest.mock("app/relay/createEnvironment", () => ({
   },
 }))
 
-jest.mock("app/utils/useScreenDimensions", () => {
+jest.mock("shared/hooks", () => {
   const React = require("react")
   const screenDimensions: ScreenDimensionsWithSafeAreas = {
     width: 380,
